@@ -81,5 +81,11 @@ namespace Project_Facturation
         {
 
         }
+
+        private void guna2Button10_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new FrmUsuarios());
+
+        }
     }
 }
