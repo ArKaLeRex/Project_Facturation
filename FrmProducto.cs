@@ -4,21 +4,26 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BarcodeStandard;
+using SkiaSharp;
+using System.IO;
+
 
 namespace Project_Facturation
 {
-    public partial class FrmUsuarios : Form
+    public partial class FrmProducto : Form
     {
-        public FrmUsuarios()
+        public FrmProducto()
         {
             InitializeComponent();
-            this.AutoScaleMode = AutoScaleMode.Dpi;
+        }
+        private void FrmProducto_Load(object sender, EventArgs e)
+        {
 
         }
-
-        
     }
 }

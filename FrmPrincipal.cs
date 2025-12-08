@@ -44,7 +44,7 @@ namespace Project_Facturation
 
         private void guna2Button12_Click(object sender, EventArgs e)
         {
-
+            AbrirFormularioEnPanel(new FrmProducto());
         }
 
         private void guna2Button13_Click(object sender, EventArgs e)
@@ -79,13 +79,18 @@ namespace Project_Facturation
 
         private void guna2Button11_Click(object sender, EventArgs e)
         {
-
+            AbrirFormularioEnPanel(new FrmCliente());
         }
 
         private void guna2Button10_Click(object sender, EventArgs e)
         {
             AbrirFormularioEnPanel(new FrmUsuarios());
 
+        }
+
+        private void guna2Button9_Click_1(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new FrmRoles());
         }
     }
 }
