@@ -10,15 +10,11 @@ using System.Windows.Forms;
 
 namespace Project_Facturation
 {
-    public partial class FrmRoles : Form
+    public partial class FrmCategoria : Form
     {
-        public FrmRoles()
+        public FrmCategoria()
         {
             InitializeComponent();
-            this.AutoScaleMode = AutoScaleMode.Dpi;
-
         }
-
-
     }
 }

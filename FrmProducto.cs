@@ -20,6 +20,8 @@ namespace Project_Facturation
         public FrmProducto()
         {
             InitializeComponent();
+            this.AutoScaleMode = AutoScaleMode.Dpi;
+
         }
         private void FrmProducto_Load(object sender, EventArgs e)
         {

@@ -15,6 +15,7 @@ namespace Project_Facturation
         public FrmCliente()
         {
             InitializeComponent();
+            this.AutoScaleMode = AutoScaleMode.Dpi;
         }
     }
 }
